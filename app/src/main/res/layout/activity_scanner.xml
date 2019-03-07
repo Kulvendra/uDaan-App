@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".scannerActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:text="Authentication"
+        android:textSize="35dp"
+        android:textStyle="bold"
+        app:fontFamily="serif"
+        android:id="@+id/authTextView"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Scan the unique QR code given to every child to verify the profile submitted"
+        android:gravity="center"
+        android:layout_marginTop="80dp"
+
+        />
+    <SurfaceView
+        android:id="@+id/cameraPreview"
+        android:layout_width="400dp"
+        android:layout_height="400dp"
+        android:layout_centerInParent="true"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/outputTextView"
+        android:layout_below="@+id/cameraPreview"
+        android:layout_margin="20dp"
+        android:text="Please focus on QR Corde"
+        android:textSize="18dp"
+        android:gravity="center"/>
+</RelativeLayout>

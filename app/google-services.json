@@ -1,0 +1,71 @@
+{
+  "project_info": {
+    "project_number": "320379268024",
+    "firebase_url": "https://child-labour-sih.firebaseio.com",
+    "project_id": "child-labour-sih",
+    "storage_bucket": "child-labour-sih.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:320379268024:android:a4e27402985b55bd",
+        "android_client_info": {
+          "package_name": "in.ac.iitjammu.kulvendra.pencilapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "320379268024-v1jbisg686gjmamvdeqqg4abevk5llp8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "in.ac.iitjammu.kulvendra.pencilapp",
+            "certificate_hash": "fd4e123e2f5f28e834a8ca8acfe5c0a36155d86c"
+          }
+        },
+        {
+          "client_id": "320379268024-h4gqt7jvju61h3s2o0m3l132enjdb3d7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "in.ac.iitjammu.kulvendra.pencilapp",
+            "certificate_hash": "a439cc04a97970985f8c1a665e76f547139164c0"
+          }
+        },
+        {
+          "client_id": "320379268024-rj3gl81ntnksm84u8pbhblkchlbf0rrt.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "in.ac.iitjammu.kulvendra.pencilapp",
+            "certificate_hash": "9d3fce15a4ae25af4b192f638d5e3b1881946234"
+          }
+        },
+        {
+          "client_id": "320379268024-n9le0j4jgnmc6r4kuri2gvne5fi270be.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAg8pZKDf432dtSSo0HJ4yj7slJ3_EAGsc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "320379268024-n9le0j4jgnmc6r4kuri2gvne5fi270be.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
